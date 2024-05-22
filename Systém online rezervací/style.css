@@ -1,0 +1,44 @@
+body {
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.login, .calendar, .reservation {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login form, .reservation form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.login label, .reservation label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login input, .reservation input, .reservation select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.login button, .reservation button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+}
